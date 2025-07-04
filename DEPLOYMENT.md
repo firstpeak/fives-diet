@@ -20,14 +20,11 @@
 
 ### 1. Create GitHub Repository
 ```bash
-# Initialize git if not already done
-git init
-git add .
-git commit -m "Initial commit: The Fives Diet website"
+# ✅ COMPLETED - Repository already created and pushed!
+# Repository: https://github.com/firstpeak/fives-diet
+# Your code is now live at: https://github.com/firstpeak/fives-diet
 
-# Create repository on GitHub and add remote
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/fives-diet.git
+git remote add origin https://github.com/firstpeak/fives-diet.git
 git push -u origin main
 ```
 
@@ -48,7 +45,7 @@ Configure your DNS provider (where you manage dreadpiraterobertson.com):
   - 185.199.111.153
 
 **For www subdomain (optional):**
-- Add CNAME record: www → YOUR_USERNAME.github.io
+- Add CNAME record: www → firstpeak.github.io
 
 ### 4. Manual Deployment (Alternative)
 If you prefer manual deployment:
