@@ -1,0 +1,45 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">Fives Diet Logo</title>
+  <defs>
+    <style>
+      .main-text { 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-weight: bold; 
+        text-transform: uppercase;
+        font-size: 18px;
+      }
+      .fives-vertical { 
+       
+      }
+      .fives-text { 
+        fill: #5A7D6D; 
+      }
+      .numbers-text { 
+        fill: #081212;
+      }
+      .number-5 { font-size: 86px;  }
+      .numbers-stack { 
+      }
+      .diet-text { 
+        fill: #5A7D6D; 
+      }
+    </style>
+  </defs>
+  
+  <!-- FIVES vertical text on the left -->
+  <g class="fives-vertical">
+    <text x="70" y="105" class="main-text fives-text" text-anchor="middle">F</text>
+    <text x="70" y="122" class="main-text fives-text" text-anchor="middle">I</text>
+    <text x="70" y="138" class="main-text fives-text" text-anchor="middle">V</text>
+    <text x="70" y="154" class="main-text fives-text" text-anchor="middle">E</text>
+    <text x="70" y="170" class="main-text fives-text" text-anchor="middle">S</text>
+  </g>
+  
+  <!-- Numbers stack on the right -->
+  <g class="numbers-stack">
+    <text x="76" y="152" class="main-text numbers-text number-5">5</text>
+  </g>
+  
+  <!-- DIET text positioned below 5000 and to the right of S -->
+  <text x="80" y="170" class="main-text diet-text">DIET</text>
+</svg>

@@ -1,0 +1,161 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout>
+  <div class="max-w-4xl mx-auto space-y-12">
+    <!-- Hero Section -->
+    <header class="text-center space-y-6 py-12">
+      <img 
+        src="/fives-diet-logo.svg" 
+        alt="The Fives Diet Logo" 
+        class="w-32 h-32 mx-auto mb-6"
+      />
+      <h1 class="text-5xl font-bold bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">
+        The Fives Diet
+      </h1>
+      <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
+        A simple, sustainable approach to healthy eating based on the power of five.
+      </p>
+    </header>
+
+    <!-- Core Principle -->
+    <section class="bg-gradient-to-r from-blue-50 to-green-50 dark:from-blue-900/20 dark:to-green-900/20 rounded-xl p-8">
+      <h2 class="text-3xl font-bold text-center mb-6">The Simple Formula</h2>
+      <div class="text-center text-lg leading-relaxed space-y-4">
+        <p class="font-semibold text-2xl text-blue-600 dark:text-blue-400">
+          Five days a week, eat fifty calories at a time, up to five hundred calories, consuming under five thousand calories per week.
+        </p>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="space-y-8">
+      <h2 class="text-3xl font-bold text-center">How The Fives Diet Works</h2>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg border border-gray-200 dark:border-gray-700">
+          <div class="text-4xl font-bold text-blue-600 mb-3">5</div>
+          <h3 class="text-xl font-semibold mb-2">Days Per Week</h3>
+          <p class="text-gray-600 dark:text-gray-300">Follow the diet five days a week, giving yourself flexibility on weekends.</p>
+        </div>
+        
+        <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg border border-gray-200 dark:border-gray-700">
+          <div class="text-4xl font-bold text-green-600 mb-3">50</div>
+          <h3 class="text-xl font-semibold mb-2">Calories Per Portion</h3>
+          <p class="text-gray-600 dark:text-gray-300">Eat in small, manageable portions of 50 calories at a time.</p>
+        </div>
+        
+        <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg border border-gray-200 dark:border-gray-700">
+          <div class="text-4xl font-bold text-green-600 mb-3">500</div>
+          <h3 class="text-xl font-semibold mb-2">Daily Maximum</h3>
+          <p class="text-gray-600 dark:text-gray-300">Stay under 500 calories per day on your five diet days.</p>
+        </div>
+        
+        <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg border border-gray-200 dark:border-gray-700">
+          <div class="text-4xl font-bold text-red-600 mb-3">5K</div>
+          <h3 class="text-xl font-semibold mb-2">Weekly Total</h3>
+          <p class="text-gray-600 dark:text-gray-300">Keep your total weekly intake under 5,000 calories.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="space-y-8">
+      <h2 class="text-3xl font-bold text-center">Why The Fives Diet?</h2>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center space-y-4">
+          <div class="w-16 h-16 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mx-auto">
+            <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold">Simple to Remember</h3>
+          <p class="text-gray-600 dark:text-gray-300">The power of five makes it easy to remember and follow consistently.</p>
+        </div>
+        
+        <div class="text-center space-y-4">
+          <div class="w-16 h-16 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mx-auto">
+            <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold">Sustainable</h3>
+          <p class="text-gray-600 dark:text-gray-300">Built-in flexibility with weekend breaks makes it sustainable long-term.</p>
+        </div>
+        
+        <div class="text-center space-y-4">
+          <div class="w-16 h-16 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mx-auto">
+            <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold">Portion Control</h3>
+          <p class="text-gray-600 dark:text-gray-300">Small 50-calorie portions help retrain your relationship with food.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Getting Started -->
+    <section class="bg-gray-50 dark:bg-gray-800 rounded-xl p-8 space-y-6">
+      <h2 class="text-3xl font-bold text-center">Getting Started</h2>
+      
+      <div class="space-y-4 max-w-2xl mx-auto">
+        <div class="flex items-start space-x-4">
+          <div class="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold">1</div>
+          <div>
+            <h3 class="font-semibold">Choose Your Five Days</h3>
+            <p class="text-gray-600 dark:text-gray-300">Select five consecutive weekdays (Monday-Friday works well for most people).</p>
+          </div>
+        </div>
+        
+        <div class="flex items-start space-x-4">
+          <div class="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
+          <div>
+            <h3 class="font-semibold">Plan Your 50-Calorie Portions</h3>
+            <p class="text-gray-600 dark:text-gray-300">Prepare small, nutritious portions that are exactly 50 calories each.</p>
+          </div>
+        </div>
+        
+        <div class="flex items-start space-x-4">
+          <div class="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold">3</div>
+          <div>
+            <h3 class="font-semibold">Track Your Progress</h3>
+            <p class="text-gray-600 dark:text-gray-300">Monitor your daily and weekly calorie intake to stay under the limits.</p>
+          </div>
+        </div>
+        
+        <div class="flex items-start space-x-4">
+          <div class="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold">4</div>
+          <div>
+            <h3 class="font-semibold">Enjoy Your Weekends</h3>
+            <p class="text-gray-600 dark:text-gray-300">Use weekends for social eating and maintaining a healthy relationship with food.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Disclaimer -->
+    <section class="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg p-6">
+      <div class="flex items-start space-x-3">
+        <svg class="w-6 h-6 text-yellow-600 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 18.5c-.77.833.192 2.5 1.732 2.5z"></path>
+        </svg>
+        <div>
+          <h3 class="font-semibold text-yellow-800 dark:text-yellow-200 mb-2">Important Disclaimer</h3>
+          <p class="text-yellow-700 dark:text-yellow-300 text-sm">
+            This diet plan is for informational purposes only. Please consult with a healthcare professional before starting any new diet regimen, especially if you have existing health conditions or concerns about caloric restriction.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-8 border-t border-gray-200 dark:border-gray-700">
+      <p class="text-gray-500 dark:text-gray-400">
+        © 2025 The Fives Diet. A simple approach to sustainable eating.
+      </p>
+    </footer>
+  </div>
+</BaseLayout>
