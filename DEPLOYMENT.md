@@ -20,36 +20,35 @@
 
 ### 1. Create GitHub Repository
 ```bash
-# ✅ COMPLETED - Repository already created and pushed!
-# Repository: https://github.com/firstpeak/fives-diet
-# Your code is now live at: https://github.com/firstpeak/fives-diet
+# Initialize git if not already done
+git init
+git add .
+git commit -m "Initial commit: The Fives Diet website"
 
-git remote add origin https://github.com/firstpeak/fives-diet.git
+# Create repository on GitHub and add remote
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/fives-diet.git
 git push -u origin main
 ```
 
 ### 2. Configure GitHub Pages
-✅ **COMPLETED** - GitHub Pages is configured and live!
-1. ~~Go to your repository on GitHub~~
-2. ~~Navigate to Settings → Pages~~
-3. ~~Under "Source", select "GitHub Actions"~~
-4. ~~The workflow will automatically deploy on pushes to main~~
-
-**Status**: Site is successfully deployed and accessible at https://dreadpiraterobertson.com
+1. Go to your repository on GitHub
+2. Navigate to Settings → Pages
+3. Under "Source", select "GitHub Actions"
+4. The workflow will automatically deploy on pushes to main
 
 ### 3. DNS Configuration
-✅ **COMPLETED** - DNS properly configured for GitHub Pages!
-
 Configure your DNS provider (where you manage dreadpiraterobertson.com):
 
-**For apex domain (dreadpiraterobertson.com):** ✅
-- ~~Add A records pointing to GitHub Pages IPs:~~
-  - ~~185.199.108.153~~
-  - ~~185.199.109.153~~
-  - ~~185.199.110.153~~
-  - ~~185.199.111.153~~
+**For apex domain (dreadpiraterobertson.com):**
+- Add A records pointing to GitHub Pages IPs:
+  - 185.199.108.153
+  - 185.199.109.153
+  - 185.199.110.153
+  - 185.199.111.153
 
-**Status**: All A records correctly configured and live!
+**For www subdomain (optional):**
+- Add CNAME record: www → YOUR_USERNAME.github.io
 
 ### 4. Manual Deployment (Alternative)
 If you prefer manual deployment:
@@ -59,11 +58,8 @@ npm run deploy
 
 ## Post-Deployment Verification
 
-### ✅ Launch Successful!
-**Site Status**: 🟢 **LIVE** at https://dreadpiraterobertson.com
-
 ### Check These Items:
-- [x] Site loads at https://dreadpiraterobertson.com
+- [ ] Site loads at https://dreadpiraterobertson.com
 - [ ] SSL certificate is active (https works)
 - [ ] All images and assets load correctly
 - [ ] Mobile responsiveness works

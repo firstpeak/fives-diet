@@ -5,16 +5,5 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   site: "https://dreadpiraterobertson.com",
   output: "static",
-  integrations: [
-    tailwind(),
-    sitemap({
-      changefreq: 'weekly',
-      priority: 0.7,
-      lastmod: new Date(),
-    })
-  ],
-  build: {
-    inlineStylesheets: 'auto',
-  },
-  compressHTML: true,
+  integrations: [tailwind(), sitemap()],
 });
