@@ -37,7 +37,10 @@ const {
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     
-    <!-- Google tag (gtag.js) -->
+
+  </head>
+  <body class="font-sans min-h-screen flex flex-col items-center p-6">
+        <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRVGJT9V3W"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -46,8 +49,6 @@ const {
 
       gtag('config', 'G-BRVGJT9V3W');
     </script>
-  </head>
-  <body class="font-sans min-h-screen flex flex-col items-center p-6">
     <slot />
   </body>
 </html>
